@@ -1,0 +1,9 @@
+一、git init //初始化git仓库，会在文件夹里自动创建一个.git的文件
+二、git config --global user.name "" //设置用户名
+    git config --global user.email ""//设置邮箱
+三、git add ./文件名 //.代表当前文件路径，不写文件名则将当前所有路径存入临时仓库。输入则存入指定文件名。
+    git commit -m "说明" //将临时仓库的文件导入.git的仓库里
+问题：git commit的查看方法 退出：点击ESC,输入：q！
+git status //查看临时仓库的文件命令  modified：修改过的文件（红色:代码修改了未保存，绿色正常）
+git commit --all --m ""一次性存入仓库
+四、git push 网址 存入的主线 //我们的网址是：https://github.com/xuhuakun1/Gis-project.git 主线为master
